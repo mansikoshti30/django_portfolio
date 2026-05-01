@@ -1,0 +1,340 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- ── HERO ──────────────────────────────────────────────── -->
+<section class="hero" id="hero">
+    <div class="hero-bg">
+        <div class="topo-lines"></div>
+        <div class="star-field" id="starField"></div>
+    </div>
+
+    <!-- Earth -->
+    <div class="earth-wrap">
+        <div class="earth__atmosphere"></div>
+        <img
+            class="earth-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/600px-The_Earth_seen_from_Apollo_17.jpg"
+            alt=""
+        >
+        <div class="earth__orbit earth__orbit--1"></div>
+        <div class="earth__orbit earth__orbit--2"></div>
+    </div>
+
+
+
+    <div class="hero-inner">
+        <p class="hero-hello">HELLO, WORLD.</p>
+
+        <h1 class="hero-name">I build geospatial intelligence.</h1>
+
+        <p class="hero-tagline">I am Mansi, Specializing in GIS automation, 3D mapping, and AI-driven spatial analysis.</p>
+
+        <p class="hero-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9882597,77.457157,51707m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9628957!4d77.57754!16zL20vMDljMTc?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                12.9629° N, 77.5775° E
+            </a>
+        </p>
+
+        <div class="hero-actions">
+            <a href="#projects" class="btn btn--primary">
+                <i class="fa-solid fa-satellite"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn--outline">
+                <i class="fa-solid fa-signal"></i> Get in Touch
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<!-- ── ABOUT ──────────────────────────────────────────────── -->
+<section class="section" id="about">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="section-tag">// 01</span> About Me
+        </h2>
+        <div class="about-grid">
+            <!-- Satellite tile photo -->
+            <div class="sat-tile">
+                <div class="sat-tile__img-wrap">
+                    <img
+                        src="{% static 'images/profile.jpg' %}"
+                        alt="Mansi Pradip Koshti"
+                        class="about-photo"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+                    >
+                    <div class="photo-placeholder" style="display:none;">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Place profile.jpg in<br>static/images/</span>
+                    </div>
+                </div>
+                <div class="sat-tile__footer">
+                    <span style="margin-left:auto;">{% now "Y-m-d" %}</span>
+                </div>
+            </div>
+
+            <div class="about-text">
+                <h3 class="about-heading">Bridging the gap between<br>Geospatial Data and AI</h3>
+                <p>I'm a <strong>Geospatial Data Developer</strong> who loves building smart, automated solutions for complex spatial problems. I completed my MTech in <strong>Geoinformatics</strong> from <strong>IIT Kanpur</strong> as a Gold Medalist.</p>
+                <p>I work on designing end-to-end geospatial workflows and automation pipelines for drone imagery, photogrammetry outputs, LiDAR data, and infrastructure analytics. I also build GeoAI-driven tools that make mapping and spatial analysis faster, smoother, and more reliable.</p>
+                <p>I enjoy solving real-world location intelligence challenges, optimizing spatial algorithms, and exploring how AI can unlock deeper insights from geospatial data.</p>
+
+                <div class="about-badges">
+                    <span class="badge"><i class="fa-solid fa-map"></i> GIS</span>
+                    <span class="badge"><i class="fa-solid fa-satellite-dish"></i> Remote Sensing</span>
+                    <span class="badge"><i class="fa-solid fa-brain"></i> GeoAI</span>
+                    <span class="badge"><i class="fa-solid fa-satellite"></i> Satellite Data Processing</span>
+                    <span class="badge"><i class="fa-solid fa-database"></i> Spatial DB</span>
+                    <span class="badge"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="badge"><i class="fa-solid fa-earth-asia"></i> Earth Observation</span>
+                    <span class="badge"><i class="fa-solid fa-crosshairs"></i> Feature Detection</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── RESUME ─────────────────────────────────────────────── -->
+<section class="section section--dark" id="resume">
+    <div class="topo-section-bg"></div>
+    <div class="container" style="position:relative;">
+        <div class="resume-header">
+            <div>
+                <p class="resume-label">MY JOURNEY</p>
+                <h2 class="resume-title">Experience &amp; Education</h2>
+            </div>
+            <a href="{% static 'files/resume.pdf' %}" class="btn btn--resume" download>
+                <i class="fa-solid fa-download"></i> Download Resume
+            </a>
+        </div>
+
+        <div class="timeline">
+
+            <!-- Experience -->
+            <div class="timeline-item">
+                <div class="timeline-dot timeline-dot--work"></div>
+                <div class="timeline-content">
+                    <span class="timeline-badge">
+                        <i class="fa-solid fa-briefcase"></i> July 2024 – Present
+                    </span>
+                    <h3 class="timeline-role">Geospatial Data Analyst and Developer</h3>
+                    <p class="timeline-org">AEREO <span class="tl-sep">|</span> Bangalore</p>
+                    <p class="timeline-desc">Building automated geospatial pipelines, GeoAI-driven workflows, and custom GIS tools to streamline spatial analysis, optimize end-to-end workflows, and extract meaningful insights from high-resolution imagery and LiDAR.</p>
+                </div>
+            </div>
+
+            <!-- MTech -->
+            <div class="timeline-item">
+                <div class="timeline-dot timeline-dot--edu"></div>
+                <div class="timeline-content">
+                    <span class="timeline-badge">
+                        <i class="fa-solid fa-graduation-cap"></i> 2022 – 2024
+                    </span>
+                    <h3 class="timeline-role">MTech Researcher (Geoinformatics)</h3>
+                    <p class="timeline-org">Indian Institute of Technology, Kanpur</p>
+                    <p class="timeline-desc">Gold Medalist (CPI 9.16/10) and Best All-Rounder Student. Built strong foundations in Geoinformatics, including GIS, remote sensing, photogrammetry, LiDAR processing, and spatial analytics. Conducted research on digital twins, 3D localization and mapping, LiDAR sensor workflows, and intelligent spatial modelling.</p>
+                </div>
+            </div>
+
+            <!-- BE -->
+            <div class="timeline-item">
+                <div class="timeline-dot timeline-dot--edu"></div>
+                <div class="timeline-content">
+                    <span class="timeline-badge">
+                        <i class="fa-solid fa-graduation-cap"></i> 2017 – 2021
+                    </span>
+                    <h3 class="timeline-role">BE, Civil Engineering</h3>
+                    <p class="timeline-org">K. K. Wagh Institute, Nashik</p>
+                    <p class="timeline-desc">Graduated with 9.25/10 CPI. Strong foundation in surveying, structural analysis, and infrastructure planning.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ── SKILLS ──────────────────────────────────────────────── -->
+<section class="section section--dark" id="skills">
+    <div class="topo-section-bg"></div>
+    <div class="container" style="position:relative;">
+        <h2 class="section-title">
+            <span class="section-tag">// 02</span> Skills
+        </h2>
+
+        <p class="skills-label">TECHNICAL EXPERTISE</p>
+        {% if skills_by_category %}
+        <div class="skills-row">
+            {% for category, skill_list in skills_by_category.items %}
+            <div class="skill-card">
+                <div class="skill-card__icon
+                    {% if category == 'Programming Languages' %}icon--prog
+                    {% elif category == 'GIS & Esri Technologies' %}icon--gis
+                    {% elif category == 'Web & App Development' %}icon--web
+                    {% elif category == 'Cloud & Infrastructure' %}icon--cloud
+                    {% elif category == 'Python GIS/ML Libraries' %}icon--pylib
+                    {% elif category == 'Raster, Image & Remote Sensing' %}icon--raster
+                    {% else %}icon--tools{% endif %}
+                ">
+                    {% if category == "Programming Languages" %}<i class="fa-solid fa-code"></i>
+                    {% elif category == "GIS & Esri Technologies" %}<i class="fa-solid fa-map-location-dot"></i>
+                    {% elif category == "Web & App Development" %}<i class="fa-solid fa-globe"></i>
+                    {% elif category == "Cloud & Infrastructure" %}<i class="fa-solid fa-cloud"></i>
+                    {% elif category == "Python GIS/ML Libraries" %}<i class="fa-brands fa-python"></i>
+                    {% elif category == "Raster, Image & Remote Sensing" %}<i class="fa-solid fa-satellite"></i>
+                    {% else %}<i class="fa-solid fa-screwdriver-wrench"></i>{% endif %}
+                </div>
+                <h3 class="skill-card__title">{{ category }}</h3>
+                <ul class="skill-list">
+                    {% for pair in skill_list %}
+                    <li class="skill-item
+                        {% if category == 'Programming Languages' %}dot--prog
+                        {% elif category == 'GIS & Esri Technologies' %}dot--gis
+                        {% elif category == 'Web & App Development' %}dot--web
+                        {% elif category == 'Cloud & Infrastructure' %}dot--cloud
+                        {% elif category == 'Python GIS/ML Libraries' %}dot--pylib
+                        {% elif category == 'Raster, Image & Remote Sensing' %}dot--raster
+                        {% else %}dot--tools{% endif %}
+                    ">{{ pair }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p class="empty-state">Add skills via the <a href="/admin/">admin panel</a>.</p>
+        {% endif %}
+    </div>
+</section>
+
+<!-- ── PROJECTS ──────────────────────────────────────────────── -->
+<section class="section" id="projects">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="section-tag">// 03</span> Projects
+        </h2>
+
+        {% if projects %}
+        <div class="projects-grid">
+            {% for project in projects %}
+            <article class="project-card">
+                <!-- Image -->
+                <div class="project-card__img-wrap">
+                    {% if project.static_image %}
+                    <img src="{% static project.static_image %}" alt="{{ project.title }}" class="project-card__img">
+                    {% elif project.image %}
+                    <img src="{{ project.image.url }}" alt="{{ project.title }}" class="project-card__img">
+                    {% else %}
+                    <div class="project-card__img-placeholder">
+                        <div class="placeholder-grid"></div>
+                        <div class="placeholder-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                    </div>
+                    {% endif %}
+                </div>
+                <!-- Body -->
+                <div class="project-card__body">
+                    <div class="project-card__title-row">
+                        <h3 class="project-card__title">{{ project.title }}</h3>
+                        <a href="{{ project.github_url|default:project.live_url|default:'#' }}" target="_blank" class="project-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <p class="project-card__desc">{{ project.description }}</p>
+                    <ul class="project-card__tags">
+                        {% for tech in project.tech_list %}
+                        <li>{{ tech }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p class="empty-state">Add projects via the <a href="/admin/">admin panel</a>.</p>
+        {% endif %}
+    </div>
+</section>
+
+<!-- ── PUBLICATIONS ──────────────────────────────────────────── -->
+<section class="section section--dark" id="publications">
+    <div class="topo-section-bg"></div>
+    <div class="container" style="position:relative;">
+        <h2 class="section-title">
+            <span class="section-tag">// 04</span> Research &amp; Publications
+        </h2>
+        {% if publications %}
+        <div class="pub-list">
+            {% for pub in publications %}
+            <div class="pub-card">
+                <div class="pub-card__meta">
+                    <span class="pub-venue">{{ pub.venue }}</span>
+                    <span class="pub-year">{{ pub.year }}</span>
+                </div>
+                <div class="pub-card__body">
+                    <h3 class="pub-title">{{ pub.title }}</h3>
+                    {% if pub.url %}
+                    <a href="{{ pub.url }}" target="_blank" class="pub-link" title="View publication">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    {% else %}
+                    <span class="pub-link pub-link--disabled" title="Link coming soon">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p class="empty-state">Add publications via the <a href="/admin/">admin panel</a>.</p>
+        {% endif %}
+    </div>
+</section>
+
+<!-- ── CONTACT ──────────────────────────────────────────────── -->
+<section class="section contact-cta" id="contact">
+    <div class="container">
+        <p class="cta-label">WHAT'S NEXT?</p>
+        <h2 class="cta-heading">Let's work together.</h2>
+        <p class="cta-sub">Open to opportunities in GIS Development, Spatial Data Science, and AI/ML.<br>Feel free to reach out for collaborations or just to say hi!</p>
+
+        <div class="cta-icons">
+            <a href="mailto:mansikoshti3003@gmail.com" class="cta-icon-btn" title="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mansikoshti30/" target="_blank" class="cta-icon-btn" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/mansikoshti30" target="_blank" class="cta-icon-btn" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+
+        <div class="cta-details">
+            <p class="cta-location"><i class="fa-solid fa-location-dot"></i> Bangalore, India</p>
+            <p class="cta-contact-line">mansikoshti3003@gmail.com &nbsp;|&nbsp; +91 9834848951</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Generate star field
+const sf = document.getElementById('starField');
+if (sf) {
+    for (let i = 0; i < 120; i++) {
+        const s = document.createElement('div');
+        s.className = 'star';
+        s.style.cssText = `left:${Math.random()*100}%;top:${Math.random()*100}%;
+            width:${Math.random()*2+1}px;height:${Math.random()*2+1}px;
+            animation-delay:${Math.random()*5}s;animation-duration:${Math.random()*3+2}s;`;
+        sf.appendChild(s);
+    }
+}
+</script>
+{% endblock %}

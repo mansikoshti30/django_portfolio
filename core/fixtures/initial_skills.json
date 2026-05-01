@@ -1,0 +1,20 @@
+[
+  {"model": "core.skill", "pk": 1,  "fields": {"name": "QGIS",        "category": "gis",         "order": 1}},
+  {"model": "core.skill", "pk": 2,  "fields": {"name": "ArcGIS",      "category": "gis",         "order": 2}},
+  {"model": "core.skill", "pk": 3,  "fields": {"name": "PostGIS",     "category": "gis",         "order": 3}},
+  {"model": "core.skill", "pk": 4,  "fields": {"name": "GDAL / OGR",  "category": "gis",         "order": 4}},
+  {"model": "core.skill", "pk": 5,  "fields": {"name": "Leaflet.js",  "category": "gis",         "order": 5}},
+  {"model": "core.skill", "pk": 6,  "fields": {"name": "MapboxGL",    "category": "gis",         "order": 6}},
+  {"model": "core.skill", "pk": 7,  "fields": {"name": "Python",      "category": "programming", "order": 1}},
+  {"model": "core.skill", "pk": 8,  "fields": {"name": "GeoPandas",   "category": "programming", "order": 2}},
+  {"model": "core.skill", "pk": 9,  "fields": {"name": "Shapely",     "category": "programming", "order": 3}},
+  {"model": "core.skill", "pk": 10, "fields": {"name": "Django",      "category": "programming", "order": 4}},
+  {"model": "core.skill", "pk": 11, "fields": {"name": "JavaScript",  "category": "programming", "order": 5}},
+  {"model": "core.skill", "pk": 12, "fields": {"name": "PostgreSQL",  "category": "database",    "order": 1}},
+  {"model": "core.skill", "pk": 13, "fields": {"name": "SQLite",      "category": "database",    "order": 2}},
+  {"model": "core.skill", "pk": 14, "fields": {"name": "GeoServer",   "category": "database",    "order": 3}},
+  {"model": "core.skill", "pk": 15, "fields": {"name": "Pandas",      "category": "data",        "order": 1}},
+  {"model": "core.skill", "pk": 16, "fields": {"name": "NumPy",       "category": "data",        "order": 2}},
+  {"model": "core.skill", "pk": 17, "fields": {"name": "Rasterio",    "category": "data",        "order": 3}},
+  {"model": "core.skill", "pk": 18, "fields": {"name": "Remote Sensing","category": "data",      "order": 4}}
+]

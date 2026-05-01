@@ -1,0 +1,62 @@
+[
+{
+  "model": "core.project",
+  "pk": 1,
+  "fields": {
+    "title": "Land Encroachment Alerts",
+    "description": "Built an end-to-end geospatial AI pipeline that watches Bangalore's urban green zones and land boundaries from space using Sentinel-2 satellite imagery. Automatically flagging encroachment and sending alert reports without any manual intervention.",
+    "tech_stack": "Python, Sentinel-2, NDVI, NDBI, Rasterio, GeoPandas",
+    "category": "gis",
+    "image": "projects/project_2.jpg",
+    "github_url": "https://github.com/",
+    "live_url": "",
+    "featured": true,
+    "order": 2
+  }
+},
+{
+  "model": "core.project",
+  "pk": 2,
+  "fields": {
+    "title": "Intelligent Geospatial Chatbot",
+    "description": "Built an intelligent geospatial chatbot capable of answering GIS-based queries, extracting spatial insights, and assisting with GIS workflows using NLP and LLM models. Integrates spatial data retrieval with conversational AI to deliver context-aware geospatial analysis.",
+    "tech_stack": "Python, LangChain, LLM, GeoPandas, PostGIS, FAISS, NLP, FastAPI",
+    "category": "gis",
+    "image": "projects/project_3.png",
+    "github_url": "https://github.com/",
+    "live_url": "",
+    "featured": true,
+    "order": 3
+  }
+},
+{
+  "model": "core.project",
+  "pk": 3,
+  "fields": {
+    "title": "Raster-Based Terrain Deviation Analysis Tool",
+    "description": "Built a Python-based raster analysis tool in ArcGIS Pro to automate terrain comparison and generate precise elevation deviation maps from DEM data. Streamlined workflows for cut-fill analysis and large-scale terrain monitoring, improving efficiency and accuracy. Published results on ArcGIS Online for interactive visualization and decision support.",
+    "tech_stack": "Python, ArcGIS Pro, ArcPy, DEM, Raster Analysis, ArcGIS Online",
+    "category": "gis",
+    "image": "projects/project_4.png",
+    "github_url": "https://github.com/",
+    "live_url": "",
+    "featured": true,
+    "order": 4
+  }
+},
+{
+  "model": "core.project",
+  "pk": 4,
+  "fields": {
+    "title": "LiDAR SLAM Framework",
+    "description": "Developed a modified ICP algorithm with feature extraction to enhance LiDAR SLAM accuracy in GNSS-denied environments using Velodyne VLP-16/32 sensors.",
+    "tech_stack": "Python, LiDAR, SLAM, PointNet",
+    "category": "gis",
+    "image": "projects/project_1.png",
+    "github_url": "",
+    "live_url": "https://isprs-archives.copernicus.org/articles/XLVIII-4-2024/275/2024/isprs-archives-XLVIII-4-2024-275-2024.html",
+    "featured": true,
+    "order": 1
+  }
+}
+]

@@ -1,0 +1,450 @@
+[
+{
+  "model": "core.skill",
+  "pk": 63,
+  "fields": {
+    "name": "Python",
+    "category": "programming",
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 64,
+  "fields": {
+    "name": "SQL",
+    "category": "programming",
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 65,
+  "fields": {
+    "name": "R",
+    "category": "programming",
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 66,
+  "fields": {
+    "name": "MATLAB",
+    "category": "programming",
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 67,
+  "fields": {
+    "name": "ArcGIS Pro",
+    "category": "gis",
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 68,
+  "fields": {
+    "name": "ArcMap",
+    "category": "gis",
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 69,
+  "fields": {
+    "name": "ArcGIS Online",
+    "category": "gis",
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 70,
+  "fields": {
+    "name": "QGIS",
+    "category": "gis",
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 71,
+  "fields": {
+    "name": "Global Mapper",
+    "category": "gis",
+    "order": 5
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 72,
+  "fields": {
+    "name": "FastAPI",
+    "category": "web",
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 73,
+  "fields": {
+    "name": "Flask",
+    "category": "web",
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 74,
+  "fields": {
+    "name": "Django",
+    "category": "web",
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 75,
+  "fields": {
+    "name": "Leaflet",
+    "category": "web",
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 76,
+  "fields": {
+    "name": "Mapbox",
+    "category": "web",
+    "order": 5
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 77,
+  "fields": {
+    "name": "GeoServer",
+    "category": "web",
+    "order": 6
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 78,
+  "fields": {
+    "name": "AWS",
+    "category": "cloud",
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 79,
+  "fields": {
+    "name": "Microsoft Azure",
+    "category": "cloud",
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 80,
+  "fields": {
+    "name": "Cloud-native Architecture",
+    "category": "cloud",
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 81,
+  "fields": {
+    "name": "GDAL",
+    "category": "pylib",
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 82,
+  "fields": {
+    "name": "Rasterio",
+    "category": "pylib",
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 83,
+  "fields": {
+    "name": "NumPy",
+    "category": "pylib",
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 84,
+  "fields": {
+    "name": "Pandas",
+    "category": "pylib",
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 85,
+  "fields": {
+    "name": "GeoPandas",
+    "category": "pylib",
+    "order": 5
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 86,
+  "fields": {
+    "name": "Shapely",
+    "category": "pylib",
+    "order": 6
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 87,
+  "fields": {
+    "name": "OpenCV",
+    "category": "pylib",
+    "order": 7
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 88,
+  "fields": {
+    "name": "PDAL",
+    "category": "pylib",
+    "order": 8
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 89,
+  "fields": {
+    "name": "Scikit-learn",
+    "category": "pylib",
+    "order": 9
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 90,
+  "fields": {
+    "name": "PyTorch",
+    "category": "pylib",
+    "order": 10
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 91,
+  "fields": {
+    "name": "Scipy",
+    "category": "pylib",
+    "order": 11
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 92,
+  "fields": {
+    "name": "Laspy",
+    "category": "pylib",
+    "order": 12
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 93,
+  "fields": {
+    "name": "Fiona",
+    "category": "pylib",
+    "order": 13
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 94,
+  "fields": {
+    "name": "Scikit-image",
+    "category": "pylib",
+    "order": 14
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 100,
+  "fields": {
+    "name": "VS Code",
+    "category": "tools",
+    "order": 1
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 101,
+  "fields": {
+    "name": "Jupyter Notebook",
+    "category": "tools",
+    "order": 2
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 102,
+  "fields": {
+    "name": "GitHub",
+    "category": "tools",
+    "order": 3
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 103,
+  "fields": {
+    "name": "GitLab",
+    "category": "tools",
+    "order": 4
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 104,
+  "fields": {
+    "name": "PyQt6",
+    "category": "tools",
+    "order": 5
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 105,
+  "fields": {
+    "name": "PyInstaller",
+    "category": "tools",
+    "order": 6
+  }
+},
+{
+  "model": "core.skill",
+  "pk": 106,
+  "fields": {
+    "name": "pytest",
+    "category": "tools",
+    "order": 7
+  }
+},
+{
+  "model": "core.project",
+  "pk": 1,
+  "fields": {
+    "title": "Land Encroachment Alerts",
+    "description": "Built an end-to-end geospatial AI pipeline that watches Bangalore's urban green zones and land boundaries from space using Sentinel-2 satellite imagery. Automatically flagging encroachment and sending alert reports without any manual intervention.",
+    "tech_stack": "Python, Sentinel-2, NDVI, NDBI, Rasterio, GeoPandas",
+    "category": "gis",
+    "image": "projects/project_2.jpg",
+    "static_image": "files/project_2.jpg",
+    "github_url": "https://github.com/",
+    "live_url": "",
+    "featured": true,
+    "order": 2
+  }
+},
+{
+  "model": "core.project",
+  "pk": 2,
+  "fields": {
+    "title": "Intelligent Geospatial Chatbot",
+    "description": "Built an intelligent geospatial chatbot capable of answering GIS-based queries, extracting spatial insights, and assisting with GIS workflows using NLP and LLM models. Integrates spatial data retrieval with conversational AI to deliver context-aware geospatial analysis.",
+    "tech_stack": "Python, LangChain, LLM, GeoPandas, PostGIS, FAISS, NLP, FastAPI",
+    "category": "gis",
+    "image": "projects/project_3.png",
+    "static_image": "files/project_3.png",
+    "github_url": "https://github.com/mansikoshti30/Chatbot_project",
+    "live_url": "",
+    "featured": true,
+    "order": 3
+  }
+},
+{
+  "model": "core.project",
+  "pk": 3,
+  "fields": {
+    "title": "Raster-Based Terrain Deviation Analysis Tool",
+    "description": "Built a Python-based raster analysis tool in ArcGIS Pro to automate terrain comparison and generate precise elevation deviation maps from DEM data. Streamlined workflows for cut-fill analysis and large-scale terrain monitoring, improving efficiency and accuracy. Published results on ArcGIS Online for interactive visualization and decision support.",
+    "tech_stack": "Python, ArcGIS Pro, ArcPy, DEM, Raster Analysis, ArcGIS Online",
+    "category": "gis",
+    "image": "projects/project_4.png",
+    "static_image": "files/project_4.png",
+    "github_url": "https://github.com/",
+    "live_url": "",
+    "featured": true,
+    "order": 4
+  }
+},
+{
+  "model": "core.project",
+  "pk": 4,
+  "fields": {
+    "title": "LiDAR SLAM Framework",
+    "description": "Developed a modified ICP algorithm with feature extraction to enhance LiDAR SLAM accuracy in GNSS-denied environments using Velodyne VLP-16/32 sensors.",
+    "tech_stack": "Python, LiDAR, SLAM, PointNet",
+    "category": "gis",
+    "image": "projects/project_1.png",
+    "static_image": "files/project_1.png",
+    "github_url": "",
+    "live_url": "https://isprs-archives.copernicus.org/articles/XLVIII-4-2024/275/2024/isprs-archives-XLVIII-4-2024-275-2024.html",
+    "featured": true,
+    "order": 1
+  }
+},
+{
+  "model": "core.publication",
+  "pk": 1,
+  "fields": {
+    "title": "Modified ICP based Framework for 3D Localization and Mapping in GNSS-denied Environments using LiDAR",
+    "venue": "ISPRS Conference 2024",
+    "year": 2024,
+    "url": "https://isprs-archives.copernicus.org/articles/XLVIII-4-2024/275/2024/isprs-archives-XLVIII-4-2024-275-2024.html",
+    "order": 1
+  }
+},
+{
+  "model": "core.publication",
+  "pk": 2,
+  "fields": {
+    "title": "Automated Pipeline for Multi-LiDAR Extrinsic Calibration: Experimental Evaluation and Performance Analysis",
+    "venue": "ISPRS Annals 2024",
+    "year": 2024,
+    "url": "https://isprs-annals.copernicus.org/articles/X-4-2024/37/2024/isprs-annals-X-4-2024-37-2024.html",
+    "order": 2
+  }
+},
+{
+  "model": "core.publication",
+  "pk": 3,
+  "fields": {
+    "title": "Registration of Sparse-Dense Point Cloud from LiDAR and its Applications",
+    "venue": "Google Scholar",
+    "year": 2024,
+    "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0,5&cluster=5606650981158074044",
+    "order": 3
+  }
+}
+]
